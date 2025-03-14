@@ -1,0 +1,16 @@
+.hello {
+	border: 5px solid red;
+	padding: 5px;
+}
+
+.paragraph {
+	border: 5px solid black;
+	width: 500px;
+	transition: height 0.5s ease;
+
+	height: 0;
+	overflow: hidden;
+}
+.paragraph_opened {
+	height: auto;
+}
